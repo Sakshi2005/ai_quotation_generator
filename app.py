@@ -149,3 +149,4 @@ if st.button("Generate Quotation"):
         if st.button("📋 Copy Share Link"):
             pyperclip.copy(shareable_link)
             st.success("Share link copied to clipboard!")
+
