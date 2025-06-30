@@ -1,6 +1,6 @@
 import streamlit as st
 from datetime import datetime
-from fpdf import FPDF
+from fpdf2 import FPDF
 import base64
 import os
 import csv
@@ -149,4 +149,3 @@ if st.button("Generate Quotation"):
         if st.button("📋 Copy Share Link"):
             pyperclip.copy(shareable_link)
             st.success("Share link copied to clipboard!")
-
